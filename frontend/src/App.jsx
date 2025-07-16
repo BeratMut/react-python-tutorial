@@ -3,7 +3,7 @@ import { Container, Stack, Text } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import UserGrid from "./components/UserGrid";
 import { useState } from "react";
-export const BASE_URL = "http://localhost:5000/api";
+export const BASE_URL = "https://react-python-tutorial-0hfj.onrender.com/api";
 function App() {
   const [users, setUsers] = useState([]);
   return (
